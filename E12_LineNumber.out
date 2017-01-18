@@ -1,0 +1,32 @@
+32: }
+31: 	}
+30: 		out.close();
+29: 			out.write(line-- + ": " + it.previous() + "\n");
+28: 		for (ListIterator<String> it = list.listIterator(list.size()); it.hasPrevious();)
+27: 		int line = list.size();
+26: 		// We need to count backwards...
+25: 		BufferedWriter out = new BufferedWriter(new FileWriter("E12_LineNumber.out"));
+24: 		List<String> list = E07_FileIntoList.read("src/thinking/in/java/chapter18/E12_LineNumber.java");
+23: 		// }
+22: 		// return;
+21: 		// System.err.println("Usage: java E12_LineNumber infile outfile");
+20: 		// if (args.length != 2) {
+19: 	public static void main(String[] args) throws java.io.IOException {
+18: public class E12_LineNumber {
+17: 
+16: import java.util.ListIterator;
+15: import java.util.List;
+14: import java.io.FileWriter;
+13: import java.io.BufferedWriter;
+12: 
+11: ***********************************************/
+10: * to the file.
+9: * attempt to use the “LineNumber” classes), out
+8: * LinkedList, along with line numbers (do not
+7: * you can write text into it. Write the lines in the
+6: * Modify Exercise 8 to also open a text file so
+5: /****************** Exercise 12 *****************
+4: //{Args: E12_LineNumber.java E12_LineNumber.out}
+3: //: io/E12_LineNumber.java
+2: 
+1: package thinking.in.java.chapter18;
