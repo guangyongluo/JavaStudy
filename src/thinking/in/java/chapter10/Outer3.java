@@ -13,7 +13,7 @@ public class Outer3 {
 		public String toString() { return s; }
 	}
 	Outer3(String s) { 
-		System.out.println("Outer1()");
+		System.out.println("Outer3()");
 		this.s = s;
 	}
 	Inner3 makeInner3() {
