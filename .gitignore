@@ -1,8 +1,11 @@
 # eclipse user profile
 /.settings/
 
+#eclipse complie folder
+/bin/
+
 # eclipse classpath
-/.classpath
+.classpath
 
 # all kinds of project files
 *.project
