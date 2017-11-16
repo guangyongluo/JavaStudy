@@ -5,6 +5,7 @@ import java.lang.reflect.Array;
 public class ArrayTester1 {
 
 	public static void main(String[] args) throws Exception {
+		
 		Class<?> classType = Class.forName("java.lang.String");
 		
 		Object array = Array.newInstance(classType, 10);
